@@ -1,0 +1,5 @@
+print('Abdul Ahad')
+print('Department of CS')
+print("From University of Sahiwal")
+print('*' * 10)
+print("0" * 20)
