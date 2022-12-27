@@ -11,3 +11,17 @@ print('start')
 greats_user()
 greats_user()
 print('end')
+
+# parameters
+
+
+def user_info(f_name, s_name):
+    print(f"User name is: {f_name} {s_name}")
+
+
+user_info('Abdul', 'Ahad')
+
+
+
+
+
