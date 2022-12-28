@@ -22,6 +22,23 @@ def user_info(f_name, s_name):
 user_info('Abdul', 'Ahad')
 
 
+# function return
+
+
+def sum(num1, num2):
+    result = num1+num2
+    return  result
+
+number_1=0
+number_2=0
+number_1 = input('Enter 1st number: ')
+number_2 = input('Enter 2nd number: ')
+
+r = sum(number_1, number_2)
+
+print(f"Sum of two number is: {r}")
+
+
 
 
 
