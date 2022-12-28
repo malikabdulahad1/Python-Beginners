@@ -1,15 +1,10 @@
 try:
-    user_age = int(input("Enter your age: "))
-    print(user_age)
+    num1 = int(input('Enter 1st number'))
+    num2 = int(input('Enter 2nd number'))
+    print(num1)
+    print(num2)
+    num3 = num1/num2
 except ValueError:
-    print('invaild value')
-    print(ValueError)
-
-
-try:
-    num1 = int(input('Enter Your first number: '))
-    num2 = int(input('Enter Your second number: '))
-    result = num1/num2
-    print(result)
+    print('Invaild value')
 except ZeroDivisionError:
-    print("We can't divide by zero")
+    print('Zero can not be divided')
